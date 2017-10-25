@@ -1,10 +1,11 @@
 body{
-  background: url(https://s-media-cache-ak0.pinimg.com/originals/1c/10/4e/1c104e822d2fcd69ffdc371907b39ff0.gif) 100%;
+  background: url(https://i.giphy.com/media/vtf0uP1bwXBg4/giphy.webp) 100%;
   font-family: 'arial';
   font-weight: 300;
   color: #f40082;
   font-size: 17px;
   line-height: 1.4em;
+
 }
 
 h1, h2, h3{
@@ -12,19 +13,28 @@ h1, h2, h3{
 }
 
 h1{
-  color: #DD5555;
-  font-size: 22px;
+  color: #49ff62;
+  font-size: 40px;
 }
 
 h2{
-  font-size: 18px;
-  font-weight: 300;
+
+  font-size: 15px;
+  color: #42eef4;
+  font-weight: 12px;
 }
 
 h3{
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 300;
 }
+
+h5{
+  font-size: 15px;
+  font-weight: 150;
+  color: pink
+}
+
 
 a{
   color: #ccc;
@@ -32,14 +42,14 @@ a{
 }
 
 a:hover{
-  color: #f40082;
+  color: yellow;
   text-decoration: none;
 }
 
 table{
   font-weight: 300;
   font-size: 15px;
-  line-height: 1.6em;
+  line-height: 1.3em;
 }
 
 .text-center {
@@ -47,14 +57,19 @@ table{
 }
 
 .container{
-  width: 500px;
+  width: 600px;
   margin: 30px auto;
+
 }
 
 .card{
-  background: rgba(10,10,10,0.8);
+  background: rgba(20,10,5,1);
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 4px;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.image-round{
+  border-radius: 50%;
 }
